@@ -13,6 +13,7 @@
  * D -> 60 +
  * F -> 0 - 60
 */
+
 template <typename T> 
 void _mm256_print( 
   const __m256i d
@@ -24,6 +25,7 @@ void _mm256_print(
   }
   std::cout << std::endl;
 }
+
 int main() {
 
   for(int i = 0; i <=100; i ++){
